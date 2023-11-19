@@ -1,17 +1,12 @@
 const box1 = document.querySelector(".box-1");
 const doOverlay = document.querySelector(".do-overlay");
 const img_1 = document.querySelector(".img-1");
-// const overlay_button = document.querySelector(".do-overlay");
-// const popUp_overlay_element = document.querySelector(".popup-overlay");
 var logo = document.querySelector(".logo");
 
 
-console.log(popUp_overlay_element);
 
 // addEventListener
 window.addEventListener("scroll", handleScroll);
-// overlay_button.addEventListener("mouseover", popUpOverlayToggleOn);
-// overlay_button.addEventListener("mouseenter", popUpOverlayToggleOff);
 
 
 // handle event function
@@ -41,10 +36,3 @@ function handleScroll() {
   }
 }
 
-// function popUpOverlayToggleOn() {
-//   popUp_overlay_element.style.display = "block";
-// }
-
-// function popUpOverlayToggleOff() {
-//   popUp_overlay_element.style.display = "none";
-// }
