@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 1000vh;
+}
+
+img {
+    position: sticky;
+    top: 50px;
+    transition: transform 0.5s ease;
+    transform: scale(0.8);
+
+}
+
+p{
+    position: absolute;
+    top: 0px;
+}
